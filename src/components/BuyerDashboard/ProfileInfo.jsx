@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPen } from "react-icons/fa";
+import {files} from '../../constants/index'
 
 const ProfileInformation = () => {
   return (
@@ -11,7 +12,7 @@ const ProfileInformation = () => {
           <div className="flex justify-start mb-6">
             <div className="relative">
               <img
-                src="../../src/assets/images/profileimage.jpg"
+                src={files.profileimage}
                 alt="Profile"
                 className="rounded-full w-24 h-24"
               />

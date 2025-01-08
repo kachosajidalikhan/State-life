@@ -1,6 +1,6 @@
 // Import React and necessary hooks
 import React from 'react';
-import Hero from "../assets/images/hero-bg.png";
+import Hero from "../assets/images/herobg.png";
 
 function HeroSection() {
   return (

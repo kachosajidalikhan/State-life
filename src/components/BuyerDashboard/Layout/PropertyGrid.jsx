@@ -4,34 +4,16 @@ import { FaShare } from "react-icons/fa6";
 import { FaHeart } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
+import {files} from '../../constants/index'
+
+const dash = files.dash;
 
 // Data for the houses (replace with API data if needed)
 const houses = [
-    { id: 1,agentRating:5,agentName:'Ali Khan', name: 'Khan House',description:'lovely house',garage:'1', type: 'For Sale',bedrooms:'4',bathrooms:'3',area:'2500', username: 'Lorem', price: '$120', location: 'Downtown, West Side', image: '../../src/assets/images/dash.png' },
-    { id: 2,agentRating:5,agentName:'Ali Sewani', name: 'Sewani House',description:'lovely house',garage:'2', type: 'For Rent',bedrooms:'5',bathrooms:'2',area:'2200', username: 'Lorem House', price: '$145/Month', location: 'Downtown, West Side', image: '../../src/assets/images/dash.png' },
-    { id: 3,agentRating:5,agentName:'Abbas Ali ', name: 'Abbas House',description:'lovely house',garage:'1', type: 'For Sale',bedrooms:'4',bathrooms:'2',area:'2100', username: 'Lorem House', price: '$160/Month', location: 'Downtown, West Side', image: '../../src/assets/images/dash.png' },
+    { id: 1,agentRating:5,agentName:'Ali Khan', name: 'Khan House',description:'lovely house',garage:'1', type: 'For Sale',bedrooms:'4',bathrooms:'3',area:'2500', username: 'Lorem', price: '$120', location: 'Downtown, West Side', image:  {dash}},
+    { id: 2,agentRating:5,agentName:'Ali Sewani', name: 'Sewani House',description:'lovely house',garage:'2', type: 'For Rent',bedrooms:'5',bathrooms:'2',area:'2200', username: 'Lorem House', price: '$145/Month', location: 'Downtown, West Side', image: {dash} },
+    { id: 3,agentRating:5,agentName:'Abbas Ali ', name: 'Abbas House',description:'lovely house',garage:'1', type: 'For Sale',bedrooms:'4',bathrooms:'2',area:'2100', username: 'Lorem House', price: '$160/Month', location: 'Downtown, West Side', image: {dash} },
 ];
-
-
-function Avatar({ children, className }) {
-    return (
-        <div className={`relative rounded-full overflow-hidden bg-gray-200 ${className}`}>
-            {children}
-        </div>
-    );
-}
-
-function AvatarImage({ src, alt }) {
-    return <img src={src} alt={alt} className="h-full w-full object-cover" />;
-}
-
-function AvatarFallback({ children }) {
-    return (
-        <div className="flex h-full w-full items-center justify-center text-sm font-medium text-gray-500">
-            {children}
-        </div>
-    );
-}
 
 const PropertyGrid = () => {
     const nav = useNavigate();

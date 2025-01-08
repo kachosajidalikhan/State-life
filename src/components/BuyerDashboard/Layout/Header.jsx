@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Menu } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import {files} from '../../../constants/index'
+
 
 // Button Component
 function Button({ variant, size, className, children, ...props }) {
@@ -144,7 +146,7 @@ export function BuyerHeader() {
                     <DropdownMenuTrigger onClick={toggleDropdown}>
                         <Button variant="ghost" className="flex  items-center space-x-3">
                             <Avatar>
-                                <AvatarImage src="../../src/assets/images/profileimage.jpg" alt="Peter Parkur" />
+                                <AvatarImage src={files.profileimage} alt="Peter Parkur" />
                                 <AvatarFallback>PP</AvatarFallback>
                             </Avatar>
                             <div className="hidden md:block">

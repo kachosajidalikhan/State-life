@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import LoginSignup1 from '../assets/images/login-signup1.png';
-import LoginSignup2 from '../assets/images/login-signup2.png';
+import LoginSignup1 from '../assets/images/loginsignup1.png';
+import LoginSignup2 from '../assets/images/loginsignup2.png';
 import Logo from "../assets/images/Logo.png";
 import DashFooter from './DashFooter';
 import { useNavigate } from 'react-router-dom';

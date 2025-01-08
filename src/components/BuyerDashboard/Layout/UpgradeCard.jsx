@@ -1,4 +1,6 @@
 import React from "react";
+import {files} from '../../../constants/index'
+
 
 export function UpgradeCard() {
   return (
@@ -18,7 +20,7 @@ export function UpgradeCard() {
         </div>
         <div className="w-full lg:w-auto">
           <img
-            src="../../src/assets/images/plan.png"
+            src={files.plan}
             alt="Upgrade illustration"
             className="h-[200px] w-full lg:w-[300px] hidden md:block object-cover rounded"
           />
