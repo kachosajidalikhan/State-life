@@ -10,9 +10,9 @@ function ContactCard({ name, location, rating, image }) {
           <img
             src={image}
             alt={name}
-            width={48}
-            height={48}
-            className="rounded-full"
+            // width={30}
+            // height={10}
+            className="rounded-full w-12 h-12"
           />
           <div className="flex-1">
             <h3 className="font-semibold">{name}</h3>

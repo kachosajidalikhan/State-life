@@ -7,13 +7,11 @@ import { useLocation } from 'react-router-dom';
 import {files} from '../../../constants/index';
 
 // Sample data - replace with your actual data
-const deals1 = files.deals1;
-const deals2 = files.deals2;
-const deals3 = files.deals3;
+
 const propertyImages = [
-  {deals1},
-  {deals2},
-  {deals3},
+  files.deals1,
+  files.deals2,
+  files.deals3,
 ];
 
 function MyPropertyDetail() {

@@ -1,55 +1,32 @@
-// import about  from '../assets/images/about.png'
-// import dash  from '../assets/images/dash.png'
-// import deals1 from '../assets/images/deals1.'
-// import about from '../assets/images/about.jpg'
-// import bg_4  from '../assets/images/bg_4.jpg'
-// import birthday from '../assets/images/birthday.jpg'
-// import conference  from '../assets/images/conference.jpg'
-// import image_1 from '../assets/images/image_1.jpg'
-// import other from '../assets/images/other.jpg'
-// import Sungam  from '../assets/images/Sungam.png'
-// import Sungam3  from '../assets/images/Sungam3.png'
-// import testimony_img from '../assets/images/testimony_img.jpg'
-// import wedding  from '../assets/images/wedding.jpg'
-
-
-import {
-    about, 
-    dash, 
-    deals1, 
-    deals2, 
-    deals3,
-    herobg,
-    house,
-    icon,
-    loginsignup1,
-    loginsignup2,
-    Logo,
-    pic,
-    plan,
-    profileimage,
-    profilepageIMG,
-    Vector} from '../assets/images'
-
-
-
+import about  from '../assets/images/about.png'
+import dash  from '../assets/images/dash.png'
+import deals1 from '../assets/images/deals1.png'
+import deals2 from '../assets/images/deals2.png'
+import deals3  from '../assets/images/deals3.png'
+import herobg from '../assets/images/herobg.png'
+import house  from '../assets/images/house.png'
+import icon from '../assets/images/icon.png'
+import loginsignup1 from '../assets/images/loginsignup1.png'
+import loginsignup2  from '../assets/images/loginsignup2.png'
+import profileimage  from '../assets/images/profileimage.jpg'
+import profilepageIMG from '../assets/images/profilepageIMG.png'
+import plan  from '../assets/images/plan.png'
+import pic  from '../assets/images/pic.png'
 
 
 export const files = {
-    about, 
-    dash, 
-    deals1, 
-    deals2, 
-    deals3,
-    herobg,
-    house,
-    icon,
-    loginsignup1,
-    loginsignup2,
-    Logo,
-    pic,
-    plan,
-    profileimage,
-    profilepageIMG,
-    Vector
+    about:about, 
+    dash:dash, 
+    deals1:deals1, 
+    deals2:deals2, 
+    deals3:deals3,
+    herobg:herobg,
+    house:house,
+    icon:icon,
+    loginsignup1:loginsignup1,
+    loginsignup2:loginsignup2,
+    pic:pic,
+    plan:plan,
+    profileimage:profileimage,
+    profilepageIMG:profilepageIMG,
 }

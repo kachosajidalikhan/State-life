@@ -6,14 +6,13 @@ import { FaLocationDot } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
 import {files} from '../../constants/index'
 
-const dash = files.dash;
 
 
 // Data for the houses (replace with API data if needed)
 const houses = [
-    { id: 1, name: 'Khan House',description:'lovely house',garage:'1', type: 'For Sale',bedrooms:'4',bathrooms:'3',area:'2500', username: 'Lorem', price: '$120', location: 'Downtown, West Side', image: {dash} },
-    { id: 2, name: 'Sewani House',description:'lovely house',garage:'2', type: 'For Rent',bedrooms:'5',bathrooms:'2',area:'2200', username: 'Lorem House', price: '$145/Month', location: 'Downtown, West Side', image: {dash} },
-    { id: 3, name: 'Abbas House',description:'lovely house',garage:'1', type: 'For Sale',bedrooms:'4',bathrooms:'2',area:'2100', username: 'Lorem House', price: '$160/Month', location: 'Downtown, West Side', image: {dash} },
+    { id: 1, name: 'Khan House',description:'lovely house',garage:'1', type: 'For Sale',bedrooms:'4',bathrooms:'3',area:'2500', username: 'Lorem', price: '$120', location: 'Downtown, West Side', image: files.dash},
+    { id: 2, name: 'Sewani House',description:'lovely house',garage:'2', type: 'For Rent',bedrooms:'5',bathrooms:'2',area:'2200', username: 'Lorem House', price: '$145/Month', location: 'Downtown, West Side', image: files.dash },
+    { id: 3, name: 'Abbas House',description:'lovely house',garage:'1', type: 'For Sale',bedrooms:'4',bathrooms:'2',area:'2100', username: 'Lorem House', price: '$160/Month', location: 'Downtown, West Side', image: files.dash },
 ];
 
 const MyProperties = () => {
