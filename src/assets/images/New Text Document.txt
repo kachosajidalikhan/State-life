@@ -1,0 +1,8 @@
+/* Group 1000001887 */
+
+position: absolute;
+width: 297.66px;
+height: 150.91px;
+left: 66.34px;
+top: 657px;
+
