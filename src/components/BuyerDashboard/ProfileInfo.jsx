@@ -1,8 +1,10 @@
 import React from "react";
 import { FaPen } from "react-icons/fa";
 import {files} from '../../constants/index'
+import { useNavigate } from 'react-router-dom'
 
 const ProfileInformation = () => {
+  const nav = useNavigate()
   return (
     <div className=" w-full">
       {/* Content */}
@@ -46,7 +48,7 @@ const ProfileInformation = () => {
               className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <div className="w-full flex justify-end mt-6">
-            <button className="w-1/2 bg-[#1252AE] text-white py-2 px-4 rounded-full hover:bg-blue-600 transition">
+            <button onClick={()=>{nav('/')} className="w-1/2 bg-[#1252AE] text-white py-2 px-4 rounded-full hover:bg-blue-600 transition">
               Update
             </button>
             </div>
