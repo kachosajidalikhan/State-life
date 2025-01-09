@@ -102,7 +102,7 @@ const PropertyGrid = () => {
                     </div>
                 ))}
                 <div className="text-right m-auto">
-                    <button className="text-blue-500 hover:underline">See More...</button>
+                    <button onClick={()=>{nav('/properties')}} className="text-blue-500 hover:underline">See More...</button>
                 </div>
             </div>
         </div>
