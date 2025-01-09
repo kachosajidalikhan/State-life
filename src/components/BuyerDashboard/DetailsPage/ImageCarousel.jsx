@@ -30,7 +30,7 @@ function ImageCarousel({ images }) {
   }, [isDialogOpen, showPreviousImage, showNextImage]);
 
   return (
-    <div className="relative w-full">
+    <div className="z-40 relative w-full">
       <div
         className="w-full overflow-hidden rounded-lg cursor-pointer"
         onClick={() => setIsDialogOpen(true)}
